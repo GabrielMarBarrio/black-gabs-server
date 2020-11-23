@@ -1,0 +1,17 @@
+{
+   "servidor": "Servidor Proyecto Final DBP",
+   "equipo": [
+      {
+         "name": "Gabriel",
+         "lastname": "Mar Barrio"
+      },
+      {
+         "name": "Julián",
+         "lastname": "Terán Vázquez"
+      },
+      {
+         "name": "Luis Fernando",
+         "lastname": "Felix Mata"
+      }
+   ]
+}
