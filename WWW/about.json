@@ -4,17 +4,20 @@
       {
          "name": "Gabriel",
          "lastname": "Mar Barrio",
-         "student_id": "329764"
+         "student_id": "329764",
+         "url": "https://black-gabs-server.herokuapp.com/gabo.png"
       },
       {
          "name": "Julian",
          "lastname": "Teran Vazquez",
-         "student_id": "329748"
+         "student_id": "329748",
+         "url": "https://black-gabs-server.herokuapp.com/julian.png"
       },
       {
          "name": "Luis Fernando",
          "lastname": "Felix Mata",
-         "student_id": "329610"
+         "student_id": "329610",
+         "url": "https://black-gabs-server.herokuapp.com/luis.png"
       }
    ]
 }
