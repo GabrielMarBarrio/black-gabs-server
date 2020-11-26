@@ -5,7 +5,7 @@ http.createServer((request, response) => {
 
     if(request.url){
 
-        const file = request.url == '/' ? './WWW/index.html' : ./WWW${request.url};
+        const file = request.url == '/' ? './WWW/index.html' : `./WWW${request.url}`;
 
         fs.readFile(file, (err, data) => {
 
@@ -26,4 +26,4 @@ http.createServer((request, response) => {
         });
     }
 
-}).listen(4000);
+}).listen(process.env.PORT || 4000);

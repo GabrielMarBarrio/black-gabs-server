@@ -3,15 +3,18 @@
    "equipo": [
       {
          "name": "Gabriel",
-         "lastname": "Mar Barrio"
+         "lastname": "Mar Barrio",
+         "student_id": "329764"
       },
       {
-         "name": "Julián",
-         "lastname": "Terán Vázquez"
+         "name": "Julian",
+         "lastname": "Teran Vazquez",
+         "student_id": "329748"
       },
       {
          "name": "Luis Fernando",
-         "lastname": "Felix Mata"
+         "lastname": "Felix Mata",
+         "student_id": "329610"
       }
    ]
 }
