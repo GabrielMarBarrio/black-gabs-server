@@ -15,6 +15,8 @@ http.createServer((request, response) => {
             }else{
                 if(file.split('.').pop() == 'json'){
                     response.writeHead(200, {"Content-Type": "application/json"});
+                }else if(file.split('.').pop() == 'png'){
+                    response.writeHead(200, {"Content-Type": "image/jpg"}); 
                 }else if(file.split('.').pop() == 'pdf'){
                     response.writeHead(200, {"Content-Type": "application/pdf"}); 
                 }else{
