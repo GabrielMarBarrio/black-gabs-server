@@ -8,8 +8,11 @@ http.createServer((request, response) => {
         const file = request.url == '/' ? './WWW/index.html' : `./WWW${request.url}`;
 
         fs.readFile(file, (err, data) => {
-
-            if(err){
+        	
+        	if(request.url == '/about'){
+        		response.writeHead(200, {"Content-Type": "application/json"});
+        		response.write(JSON.stringify(about));
+        	}else if(err){
                 response.writeHead(404, {"Content-Type": "text/html"});
                 response.write("NOT FOUND");
             }else{
